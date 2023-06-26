@@ -1,0 +1,40 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title #{title} | Frontend Mentor | Stats Preview Card Component | Nodejs - Express - Pug
+
+		//- Core Meta Data
+		meta(name="description" content="Frontend Mentor - Stats preview card component solution.")
+		meta(name="keywords" content="Frontend Mentor, Stats preview card component")
+
+		//- Behavioral Meta Data
+		meta(name="viewport" content="width=device-width,initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+		//- Favicon
+		link(rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png")
+
+		//- Fonts
+		link(rel="preconnect" href="https://fonts.googleapis.com")
+		link(rel="preconnect" href="https://fonts.gstatic.com", crossorigin)
+		link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap")
+
+		//- Styles
+		link(rel="stylesheet" href="css/main.css")
+	body
+		header
+			h1.sr-only Stats preview card component
+
+		main
+			.container
+				block content
+
+		footer
+			.container
+				p
+					| Challenge by
+					a.btn.btn--link(href='https://www.frontendmentor.io?ref=challenge' rel='noopener' target='_blank') Frontend Mentor
+					| . Coded by
+					a.btn.btn--link(href='https://github.com/al3xback' rel='noopener' target='_blank') al3xback
+					| .
