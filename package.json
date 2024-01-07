@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-stats-preview-nodejs-express-pug",
 	"version": "1.0.0",
-	"description": "stats preview card component using nodejs with express framework and pug template engine",
+	"description": "stats preview card component using nodejs, express, and pug",
 	"main": "app.js",
 	"scripts": {
 		"start": "nodemon app.js",
